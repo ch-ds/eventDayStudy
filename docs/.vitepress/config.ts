@@ -205,6 +205,19 @@ export default defineConfig({
             }
           ]
         },
+        {
+          text: 'Ant-Design-Vue',
+          items: [
+            {
+              text: '目录',
+              link: '/dev-modules/element-plus/ant-design-vue'
+            },
+            {
+              text: 'a-form-model使用原生form提交',
+              link: '/dev-modules/element-plus/ant-design-vue/native-form-submit'
+            }
+          ]
+        },
       ],
       "/upgrade/": [
         {
