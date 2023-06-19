@@ -2,7 +2,7 @@
 
 ## Vue2项目常用功能
 
-[第三方登录](./di-san-fang-login)  
+[第三方登录(google/facebook/apple)](./di-san-fang-login)  
 [自定义指令之禁止穿透滚动](./direction-stop-scroll)  
 [多表单合并提交](./many-form-submit)
 

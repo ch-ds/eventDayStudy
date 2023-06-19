@@ -8,7 +8,9 @@ export default defineConfig({
   lang: "zh-CN",
   themeConfig: {
     logo: "/logo.png",
-    // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: '首页', link: '/' },
       {
@@ -51,6 +53,10 @@ export default defineConfig({
       {
         text: '组件库',
         items: [
+          {
+            text: 'Ant Design Vue',
+            link: '/dev-modules/ant-design-vue/'
+          },
           {
             text: 'Element UI',
             link: '/dev-modules/element-ui/'
@@ -202,7 +208,7 @@ export default defineConfig({
           items: [
             {
               text: '目录',
-              link: '/dev-modules/element-plus/element-plus1'
+              link: '/dev-modules/element-plus/'
             }
           ]
         },
@@ -211,11 +217,11 @@ export default defineConfig({
           items: [
             {
               text: '目录',
-              link: '/dev-modules/element-plus/ant-design-vue'
+              link: '/dev-modules/ant-design-vue/'
             },
             {
               text: 'a-form-model使用原生form提交',
-              link: '/dev-modules/element-plus/ant-design-vue/native-form-submit'
+              link: '/dev-modules/ant-design-vue/native-form-submit'
             }
           ]
         },
@@ -262,7 +268,7 @@ export default defineConfig({
       ]
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/ch-ds/eventDayStudy' }
     ],
     outline: {
       label: "本页目录"
