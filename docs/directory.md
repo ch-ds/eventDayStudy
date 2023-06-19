@@ -12,7 +12,7 @@
 + 组件库
   1. [Ant Design Vue](./dev-modules/ant-design-vue/)
   2. [Element UI](./dev-modules/element-ui/)
-  2. [Element Plus](./dev-modules/element-Plus/)
+  2. [Element Plus](./dev-modules/element-plus/)
 + 升本
   1. [高等数学一](./upgrade/math-1/)
   2. [政治](./upgrade/politics/)
