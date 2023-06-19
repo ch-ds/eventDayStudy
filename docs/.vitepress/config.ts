@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: 'eventDayStudy',
+  base: '/eventDayStudy/',
   title: "每日一学",
   description: "记录个人学习文档",
   lang: "zh-CN",
