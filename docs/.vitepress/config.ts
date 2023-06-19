@@ -38,7 +38,10 @@ export default defineConfig({
           {
             text: 'uni app',
             link: '/dev-frame/uniapp/'
-          },
+          }, {
+            text: 'Vite',
+            link: '/dev-frame/vite/'
+          }
         ]
       },
       {
@@ -95,6 +98,7 @@ export default defineConfig({
     sidebar: {
       "/dev-language/": [
         {
+          collapsed: true,
           text: 'JS',
           items: [
             {
@@ -104,6 +108,7 @@ export default defineConfig({
           ]
         },
         {
+          collapsed: true,
           text: 'TS',
           items: [
             {
@@ -117,6 +122,7 @@ export default defineConfig({
           ]
         },
         {
+          collapsed: true,
           text: 'Node',
           items: [
             {
@@ -132,6 +138,7 @@ export default defineConfig({
       ],
       "/dev-frame/": [
         {
+          collapsed: true,
           text: 'Vue',
           items: [
             {
@@ -161,6 +168,7 @@ export default defineConfig({
           ]
         },
         {
+          collapsed: true,
           text: 'uni app',
           items: [
             {
@@ -173,9 +181,24 @@ export default defineConfig({
             }
           ]
         },
+        {
+          collapsed: true,
+          text: 'Vite',
+          items: [
+            {
+              text: '目录',
+              link: '/dev-frame/vite/'
+            },
+            {
+              text: 'vite使用https无法打开页面',
+              link: '/dev-frame/vite/server-https'
+            }
+          ]
+        }
       ],
       "/dev-tools/": [
         {
+          collapsed: true,
           text: 'VSCode',
           items: [
             {
@@ -191,6 +214,7 @@ export default defineConfig({
       ],
       "/dev-modules/": [
         {
+          collapsed: true,
           text: 'Element-UI',
           items: [
             {
@@ -204,6 +228,7 @@ export default defineConfig({
           ]
         },
         {
+          collapsed: true,
           text: 'Element-Plus',
           items: [
             {
@@ -213,6 +238,7 @@ export default defineConfig({
           ]
         },
         {
+          collapsed: true,
           text: 'Ant-Design-Vue',
           items: [
             {
@@ -228,6 +254,7 @@ export default defineConfig({
       ],
       "/upgrade/": [
         {
+          collapsed: true,
           text: '高等数学一',
           items: [
             {
@@ -237,6 +264,7 @@ export default defineConfig({
           ]
         },
         {
+          collapsed: true,
           text: '政治',
           items: [
             {
@@ -246,6 +274,7 @@ export default defineConfig({
           ]
         },
         {
+          collapsed: true,
           text: '英语',
           items: [
             {
@@ -257,6 +286,7 @@ export default defineConfig({
       ],
       "/interview/": [
         {
+          collapsed: true,
           text: '前端',
           items: [
             {
