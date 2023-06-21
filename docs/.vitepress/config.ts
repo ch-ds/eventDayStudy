@@ -3,10 +3,12 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/eventDayStudy/',
+  lastUpdated: true,
   title: "每日一学",
   description: "记录个人学习文档",
   lang: "zh-CN",
   themeConfig: {
+    lastUpdatedText: '上次更新时间',
     logo: "/logo.png",
     search: {
       provider: 'local'
@@ -132,6 +134,10 @@ export default defineConfig({
             {
               text: 'Node + koa + ts 搭建后端',
               link: '/dev-language/node/koa-ts-demo'
+            },
+            {
+              text: '访问mysql的后端',
+              link: '/dev-language/node/koa-ts-mysql-demo'
             }
           ]
         },
