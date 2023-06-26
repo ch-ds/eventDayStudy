@@ -26,7 +26,8 @@ arr.forEach(item => {
   axios.get(item,{
       responseType:'arraybuffer'
   }).then(res => {
-    fs.writeFile(resolve(__dirname, `./images/图片name.jpeg`), res.data, 'binary', (err)=>{
+    const suffix = res.headers['content-type'].split('/')[1]
+    fs.writeFile(resolve(__dirname, `./images/图片name.${suffix}`), res.data, 'binary', (err)=>{
       if(err){
         // console.log('error',err);
       }
