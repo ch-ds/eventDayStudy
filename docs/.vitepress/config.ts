@@ -138,6 +138,10 @@ export default defineConfig({
             {
               text: '访问mysql的后端',
               link: '/dev-language/node/koa-ts-mysql-demo'
+            },
+            {
+              text: '使用node下载服务器图片到本地',
+              link: '/node-upload-image-to-localhost'
             }
           ]
         },
