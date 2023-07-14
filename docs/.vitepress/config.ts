@@ -106,7 +106,11 @@ export default defineConfig({
             {
               text: '目录',
               link: '/dev-language/js/'
-            }
+            },
+            {
+              text: '可以暂停的函数',
+              link: '/dev-language/js/pause-and-start-fn'
+            },
           ]
         },
         {
@@ -141,7 +145,10 @@ export default defineConfig({
             },
             {
               text: '使用node下载服务器图片到本地',
-              link: '/node-upload-image-to-localhost'
+              link: '/dev-language/node/node-upload-image-to-localhost'
+            },{
+              text: 'node使用 jsonwebtoken 校验登录',
+              link: '/dev-language/node/jsonwebtoken'
             }
           ]
         },
