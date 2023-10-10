@@ -111,6 +111,10 @@ export default defineConfig({
               text: '可以暂停的函数',
               link: '/dev-language/js/pause-and-start-fn'
             },
+            {
+              text: '踩坑日记',
+              link: '/dev-language/js/bug-diary'
+            },
           ]
         },
         {
