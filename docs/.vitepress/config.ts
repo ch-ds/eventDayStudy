@@ -309,6 +309,10 @@ export default defineConfig({
             {
               text: '目录',
               link: '/upgrade/english/'
+            },
+            {
+              text: '工作英文交流笔记',
+              link: '/upgrade/english/work-eng'
             }
           ]
         },
