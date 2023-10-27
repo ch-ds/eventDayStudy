@@ -112,6 +112,10 @@ export default defineConfig({
               link: '/dev-language/js/pause-and-start-fn'
             },
             {
+              text: '记一次复制粘贴操作总结',
+              link: '/dev-language/js/copy-and-paste'
+            },
+            {
               text: '踩坑日记',
               link: '/dev-language/js/bug-diary'
             },
@@ -124,6 +128,10 @@ export default defineConfig({
             {
               text: '目录',
               link: '/dev-language/ts/'
+            },
+            {
+              text: '笔记',
+              link: '/dev-language/ts/ts-book'
             },
             {
               text: 'vue3引入element-plus的类型报错',
