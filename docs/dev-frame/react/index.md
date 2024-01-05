@@ -1067,7 +1067,7 @@ export default routes
 
    `yarn run analyze`
 
-   ![image-20240104144815175](C:\Users\Johnny.Liu\AppData\Roaming\Typora\typora-user-images\image-20240104144815175.png)
+   ![image-20240104144815175](./images/index/img4.png)
 
 #### CDN优化
 
@@ -1329,19 +1329,19 @@ export default routes
 
 #### 基础模板
 
-![image-20240104175134197](C:\Users\Johnny.Liu\AppData\Roaming\Typora\typora-user-images\image-20240104175134197.png)
+![image-20240104175134197](./images/index/img1.png)
 
 
 
 ### 父传子
 
-![image-20240104180411670](C:\Users\Johnny.Liu\AppData\Roaming\Typora\typora-user-images\image-20240104180411670.png)
+![image-20240104180411670](./images/index/img2.png)
 
 
 
 ### 子传父
 
-![image-20240104180611067](C:\Users\Johnny.Liu\AppData\Roaming\Typora\typora-user-images\image-20240104180611067.png)
+![image-20240104180611067](./images/index/img3.png)
 
 ### 生命周期
 
