@@ -72,7 +72,6 @@ type ElementUnion = Tuple[number]; // "string" | "number" | "boolean"
    type MyReturnType<T> = T extends (...args: any) => infer Res ? Res : T
    ```
 
-   
 
 ### Exclude
 
@@ -119,16 +118,15 @@ type Arr3 = [...Arr1, ...Arr2] // ['number', 'string', 'string', true]
 
 
 
-### Parameters<T>
-
+### Parameters
+`Parameters<T>`
 转数组类型
 
 ```typescript
 const foo = (arg1: string, arg2: number): void => {}
 
 // [arg1: string, arg2: number]
-type FunctionParamsType = Parameters<typeof foo> 
-
+type FunctionParamsType = Parameters<typeof foo>
 ```
 
 
@@ -137,7 +135,7 @@ type FunctionParamsType = Parameters<typeof foo>
 
 获取函数返回类型
 
-```
+```typescript
 const fn = (v: boolean) => {
   if (v)
     return 1
