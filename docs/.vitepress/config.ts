@@ -43,6 +43,9 @@ export default defineConfig({
           }, {
             text: 'Vite',
             link: '/dev-frame/vite/'
+          }, {
+            text: 'React',
+            link: '/dev-frame/react/'
           }
         ]
       },
@@ -221,6 +224,16 @@ export default defineConfig({
             {
               text: 'vite使用https无法打开页面',
               link: '/dev-frame/vite/server-https'
+            }
+          ]
+        },
+        {
+          collapsed: true,
+          text: 'React',
+          items: [
+            {
+              text: '基础知识',
+              link: '/dev-frame/React/'
             }
           ]
         }
